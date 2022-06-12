@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p,a{
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./m1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header .navigation{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    /* background-color: #938e94; */
+}
+
+.header .navigation .main-logo img{
+    width: 40px;
+    margin: 0 15px;
+}
+.header .navigation ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.header .navigation ul li a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+}
+.header .navigation .nav-ul .book{
+    color: white;
+    background-color: #557a95;
+    padding: 8px 2px;
+    border-radius: 5px;
+    border: none;
+}
+
+.header-body{
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.header-body h2{
+    font-size: 35px;
+    color: white;
+    margin: 12px auto;
+}
+
+.header-body p{
+    color: white;
+    margin: 8px auto;
+}
+.header-body .btn{
+    color: white;
+    background-color: #557a95;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Section */
+.section{
+    width: 80%;
+    margin: auto;
+}   
+.section .subject{
+    width: 70%;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+}
+.section .article{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:5px;
+}
+
+.section .article .article-list{
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+
+.section .article .article-list i{
+    font-size: 35px;
+}
+
+.section .article .article-list h2,p{
+    margin-top: 6px;
+}
+
+/* Aboutus */
+.aboutus{
+    width: 80%;
+    margin: auto;
+}
+.aboutus .subject{
+    width: 70%;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+}
+.aboutus .container{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:10px;
+}
+.aboutus .abt-img img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.aboutus .abt-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+.aboutus .abt-data p span{
+    font-size: 30px;
+}
+/* Book */
+.book{
+    width: 80%;
+    margin: auto;
+}
+.book .subject{
+    width: 70%;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+}
+.book .container{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:10px;
+}
+.book .container .review .review-wrapper{
+    margin: 3px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.book .container .review .review-wrapper h2{
+    margin-top: 5px;
+}
+.book .container .review .review-wrapper p{
+    padding: 0 10px;
+}
+.book .container .review .review-wrapper i{
+    color: goldenrod;
+}
+.book .container .review .review-wrapper #main{
+    color: black;
+    font-size: 40px;
+}
+
+.book .container .ips{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book .container .form-attributes input, select{
+    width: 400px;
+    height: 40px;
+    margin: 15px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.book .container .form-attributes .ip-btn{
+    background-color: #557a95;
+    color: white;
+}
+
+/* footer */
+.footer{
+    background-color: #557a95;
+    width: 100%;
+}
+.footer section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 15px;
+}
+.footer section article{
+    width: 30%;
+}
+footer h2{
+    color: white;
+    margin-bottom: 15px;
+}
+footer p {
+    color: white;
+}
+.two li{
+    list-style: none;
+    margin-top: 5px;
+}
+.two li a{
+    text-decoration: none;
+    color: white;
+}
+.three a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+}
